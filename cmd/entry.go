@@ -1,16 +1,18 @@
 package cmd
 
 import (
-	"astools/internal"
 	"flag"
 	"fmt"
-	"github.com/melbahja/goph"
-	"golang.org/x/crypto/ssh"
 	"log"
 	"os"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/melbahja/goph"
+	"golang.org/x/crypto/ssh"
+
+	"astools/internal"
 )
 
 var (
