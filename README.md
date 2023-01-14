@@ -93,3 +93,15 @@ odin:/data/local/tmp $ ./astools_android_arm64 -type scp -ip 192.168.124.16 -use
 2023/01/01 22:29:40 Copy remote file[192.168.124.16:22 - /home/ubuntu/python3-android-arm64.tar] to local[./python3.tar] done.
 2023/01/01 22:29:40 Total use time: 26.007062 s
 ```
+## How to build this project
+```shell
+# Please install golang first, see https://go.dev/doc/install
+# Use Git to clone this repo
+git clone https://github.com/hashqueue/astools.git
+# Install the project dependency package
+cd astools
+go mod tidy
+# Compile binary executable files
+./build.sh
+# Done.
+```

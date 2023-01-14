@@ -1,5 +1,5 @@
 set -e
-echo 'Start build astools binary files...'
+echo 'Start build astools binary executable files...'
 version=$(go version)
 if [[ "$version" =~ "go version" ]]; then
   echo "$version"
