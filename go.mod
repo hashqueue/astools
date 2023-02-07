@@ -1,6 +1,6 @@
 module astools
 
-go 1.19
+go 1.20
 
 require (
 	github.com/bramvdbogaerde/go-scp v1.2.1
